@@ -1,4 +1,4 @@
-package stacks;
+package com.github.dmitributorchin.algorithms.stacks;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

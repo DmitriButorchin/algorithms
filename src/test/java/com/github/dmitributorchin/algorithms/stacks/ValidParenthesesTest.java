@@ -1,5 +1,6 @@
-package stacks;
+package com.github.dmitributorchin.algorithms.stacks;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,42 +18,42 @@ class ValidParenthesesTest {
     @Test
     void test1() {
         var actual = solver.isValid("()");
-        assertTrue(actual);
+        Assertions.assertTrue(actual);
     }
 
     @Test
     void test2() {
         var actual = solver.isValid("()[]{}");
-        assertTrue(actual);
+        Assertions.assertTrue(actual);
     }
 
     @Test
     void test3() {
         var actual = solver.isValid("(]");
-        assertFalse(actual);
+        Assertions.assertFalse(actual);
     }
 
     @Test
     void test4() {
         var actual = solver.isValid("([]({})[])");
-        assertTrue(actual);
+        Assertions.assertTrue(actual);
     }
 
     @Test
     void test5() {
         var actual = solver.isValid("][]");
-        assertFalse(actual);
+        Assertions.assertFalse(actual);
     }
 
     @Test
     void test6() {
         var actual = solver.isValid("[]]");
-        assertFalse(actual);
+        Assertions.assertFalse(actual);
     }
 
     @Test
     void test7() {
         var actual = solver.isValid("[][");
-        assertFalse(actual);
+        Assertions.assertFalse(actual);
     }
 }

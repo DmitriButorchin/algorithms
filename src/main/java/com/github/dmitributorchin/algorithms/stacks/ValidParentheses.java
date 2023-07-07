@@ -1,4 +1,4 @@
-package stacks;
+package com.github.dmitributorchin.algorithms.stacks;
 
 import java.util.Stack;
 
