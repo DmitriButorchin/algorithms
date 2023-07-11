@@ -1,14 +1,18 @@
 package com.github.dmitributorchin.algorithms.twopointers;
 
-/**
-    Given an integer array nums,
-    return all the triplets [nums[i], nums[j], nums[k]]
-    such that i != j, i != k, and j != k,
-    and nums[i] + nums[j] + nums[k] == 0.
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-    Notice that the solution set must not contain duplicate triplets.
+/**
+ * Given an integer array nums,
+ * return all the triplets [nums[i], nums[j], nums[k]]
+ * such that i != j, i != k, and j != k,
+ * and nums[i] + nums[j] + nums[k] == 0.
+ * <p>
+ * Notice that the solution set must not contain duplicate triplets.
  */
-class ThreeSum {
+public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         var result = new ArrayList<List<Integer>>();
 

@@ -1,8 +1,10 @@
 package com.github.dmitributorchin.algorithms.slidingwindow;
 
+import java.util.HashMap;
+
 /**
-	Given a string s, find the length of the longest substring
-	without repeating characters.
+ * Given a string s, find the length of the longest substring
+ * without repeating characters.
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
