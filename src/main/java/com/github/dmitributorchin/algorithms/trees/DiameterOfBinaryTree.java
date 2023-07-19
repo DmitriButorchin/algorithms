@@ -1,4 +1,4 @@
-package com.github.dmitributorchin.algorithms.linkedlist;
+package com.github.dmitributorchin.algorithms.trees;
 
 /**
 	Given the root of a binary tree,
